@@ -5,26 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="page">
     <!--Шапка сайта-->
-    <header class="">
+    <header class="page-header">
        <nav>
-            <a href="">
+            <a href="./index.html" class="logo">
                 <img src="./images/logo.svg" alt="">
                 Photo
             </a>
-            <ul>
-                <li><a href="">Features</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Community</a></li>
-                <li><a href="">Support</a></li>
-                <li><a href="./wireframes.html">wireframes</a></li>
+            <ul class="site-nav list">
+                <li><a href="" class="link current">Features</a></li>
+                <li><a href="" class="link">Pricing</a></li>
+                <li><a href="./community.html" class="link">Community</a></li>
+                <li><a href="" class="link">Support</a></li>
+                <li><a href="./wireframes.html" class="link">wireframes</a></li>
             </ul>
             
-            <ul>
-                <li><a href="">Log in</a></li>
-                <li><a href="">Register</a></li>
+            <ul class="auth-nav list">
+                <li><a href="" class="button primary">Log in</a></li>
+                <li><a href="" class="button secondary">Register</a></li>
             </ul>
 
        </nav>
@@ -33,57 +34,59 @@
 <main>
 
     <!--Герой-->
-    <section>
-        <h1>The largest community of photo enthusiasts</h1>
-        <a href="">Join Today</a>
+    <section class="hero">
+        <h1 class="hero-title">The largest community of photo enthusiasts</h1>
+        <a href="" class="button primary">Join Today</a>
     </section>
     
     <!--Преимущества-->
-    <section>
-        <h2>Snap photos and share like <br /> never before</h2>
-        <ul>
+    <section class="section">
+        <h2 class="section-title">Snap photos and share like <br /> never before</h2>        
+        <ul class="feature-list">
             <li>
-                <h3>Sed ut perspiciatis</h3>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                <h3 class="title">Sed ut perspiciatis</h3>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+                    sed quia consequuntur magni
                     dolores eos qui
-                    ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-                <a href="">Learn more</a>
+                    ratione voluptatem sequi nesciunt.
+                     Neque porro quisquam est.</p>
+                <a href="" class="button secondary">Learn more</a>
             </li>
     
             <li>
-                <h3>Lorem ipsum dolor</h3>
+                <h3 class="title">Lorem ipsum dolor</h3>
                 <p>Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                     enim ad minim
                     veniam, quis nostrud exercitation ullamco laboris nisi.</p>
-                <a href="">Learn more</a>
+                <a href="" class="button secondary">Learn more</a>
             </li>
     
             <li>
-                <h3>Nemo enim ipsam</h3>
+                <h3 class="title">Nemo enim ipsam</h3>
                 <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
                     dolorem ipsum quia
                     dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p>
-                <a href="">Learn more</a>
+                <a href="" class="button secondary">Learn more</a>
             </li>
     
             <li>
-                <h3>Tempor incididunt</h3>
+                <h3 class="title">Tempor incididunt</h3>
                 <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
                     amet, consectetur,
                     adipisci velit, sed quia non numquam eius modi tempora.</p>
-                <a href="">Learn more</a>
+                <a href="" class="button secondary">Learn more</a>
             </li>
         </ul>
     
     </section>
     
     <!--Примеры работ-->
-    <section>
-        <h2 lang="ru">Примеры работ</h2>
-        <ul>
+    <section class="section">
+        <h2 lang="ru" class="section-title">Примеры работ</h2>
+        <ul class="work-list">
             <li>
                 <img src="./images/placeholderRectangle.svg" alt="" width="750">
-                <h3>Sed ut perspiciatis unde omnis</h3>
+                <h3 class="title">Sed ut perspiciatis unde omnis</h3>
                 <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
                     dolores eos qui
                     ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
@@ -93,8 +96,8 @@
     </section>
     
     <!--Testimonials Отзывы-->
-    <section>
-        <h2>You’re in good company</h2>
+    <section class="section">
+        <h2 class="section-title">You’re in good company</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
         <ul>
             <li>
@@ -154,8 +157,8 @@
             Dolor, officiis laborum?.
         </p>
         <div>
-            <a href="">Join Today</a>
-            <a href="">Contact us</a>
+            <a href="" class="button primary">Join Today</a>
+            <a href="" class="button secondary">Contact us</a>
         </div>
     </section>
 
